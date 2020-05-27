@@ -1,11 +1,11 @@
 From: pranavlari.mec@gmail.com
-Subject: Approve The Content Change
+Subject: Page activation completed.
 
 <div style="color: blue;">
 
 Hello ${recipientName}
 
-Please review the content changes on: ${url} made by <span style="text-transform: capitalize;">${initiator}</span>
+The Page you requested to active is completed
 
 Thank You
 

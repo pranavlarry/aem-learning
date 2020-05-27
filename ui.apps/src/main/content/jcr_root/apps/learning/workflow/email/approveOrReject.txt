@@ -1,11 +1,15 @@
 From: pranavlari.mec@gmail.com
-Subject: Approve The Content Change
+Subject: Content Change ${approveOrReject}
 
 <div style="color: blue;">
 
 Hello ${recipientName}
 
-Please review the content changes on: ${url} made by <span style="text-transform: capitalize;">${initiator}</span>
+The content changes you have made on: ${url} is ${approveOrReject} by <span style="text-transform: capitalize;">${participant}</span>
+
+Comments: 
+---------
+${comments}
 
 Thank You
 

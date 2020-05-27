@@ -1,11 +1,11 @@
 From: pranavlari.mec@gmail.com
-Subject: Approve The Content Change
+Subject: Published to dev
 
 <div style="color: blue;">
 
 Hello ${recipientName}
 
-Please review the content changes on: ${url} made by <span style="text-transform: capitalize;">${initiator}</span>
+Page has been published to dev
 
 Thank You
 
@@ -13,3 +13,4 @@ Thank You
 This is an automatic generated message. Please do not reply.
 
 </div>
+
