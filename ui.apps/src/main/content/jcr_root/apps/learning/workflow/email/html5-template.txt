@@ -1,0 +1,17 @@
+From: pranavlari.mec@gmail.com
+Subject: Greetings
+CC: pranavlarry111@gmail.com
+
+<div style="color: blue;">
+
+Hello ${recipientName}
+
+Find your message here: ${message}
+
+From,
+Adobe Team
+
+-------------------------------------------------------
+This is an automatic generated message. Please do not reply.
+
+</div>
