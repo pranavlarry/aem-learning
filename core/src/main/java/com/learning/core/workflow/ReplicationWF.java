@@ -51,6 +51,8 @@ public class ReplicationWF implements WorkflowProcess {
             PageManager pageManager = resolver.adaptTo(PageManager.class);
             Page page = pageManager.getPage(path);
 
+
+
             replicateTemplate(path,workflowSession,page);
 
             replicateAssets(path,workflowSession,page);

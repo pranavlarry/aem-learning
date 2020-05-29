@@ -4,13 +4,10 @@ import com.day.cq.commons.mail.MailTemplate;
 import com.day.cq.mailer.MessageGateway;
 import com.day.cq.mailer.MessageGatewayService;
 import com.learning.core.service.CustomEmail;
-import org.apache.commons.collections4.map.HashedMap;
 import org.apache.commons.lang.text.StrLookup;
 import org.apache.commons.mail.EmailException;
 import org.apache.commons.mail.HtmlEmail;
-import org.apache.sling.api.resource.LoginException;
 import org.apache.sling.api.resource.ResourceResolver;
-import org.apache.sling.api.resource.ResourceResolverFactory;
 import org.osgi.service.component.annotations.Component;
 import org.osgi.service.component.annotations.Reference;
 
@@ -18,7 +15,6 @@ import javax.jcr.Node;
 import javax.jcr.RepositoryException;
 import javax.mail.MessagingException;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Map;
 
 @Component(service = CustomEmail.class,immediate = true)
